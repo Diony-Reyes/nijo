@@ -1,0 +1,23 @@
+.swiper-wrapper {
+    height: -webkit-fill-available;
+}
+
+.swiper-slide {
+    height: auto;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: fit-content;
+    object-fit: fill;
+}
+
+.swiper-slide .img {
+    width: 100%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #8e8e8e;
+}
