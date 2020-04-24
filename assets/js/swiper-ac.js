@@ -5,15 +5,15 @@ var mainSwiper = new Swiper(".swiper-container", {
     centeredSlides: true,
     loop: true,
     autoplay: {
-        delay: 2500,
+        delay: 3000,
         disableOnInteraction: false
     },
     effect: "fade",
     speed: 800,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true
-    }
+    // pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true
+    // }
 });
 
 var swContainer = document.querySelector("#main .swiper-container");
